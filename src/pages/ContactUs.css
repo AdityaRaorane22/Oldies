@@ -1,0 +1,114 @@
+.contact-us-container {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #f4f4f9 0%, #e2e2e2 100%);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-us-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #1d3b44;
+}
+
+.contact-us-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.contact-form-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  outline: none;
+}
+
+.form-field textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.submit-btn {
+  padding: 14px 20px;
+  font-size: 1.1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: 500;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.submit-btn:active {
+  background-color: #388e3c;
+  transform: translateY(0);
+}
+
+.contact-us-footer {
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.contact-us-footer a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-us-footer a:hover {
+  text-decoration: underline;
+}

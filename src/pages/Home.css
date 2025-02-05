@@ -1,0 +1,217 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Home Content */
+.home-content {
+  padding: 30px 15px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.intro {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.intro h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.intro ul {
+  list-style-type: none;
+}
+
+.intro li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* Theory Section */
+.theory {
+  background-color: #fff;
+  padding: 40px 30px;
+  margin-top: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.theory h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.theory p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.theory h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Featured Products Section */
+.featured-products {
+  background-color: #fff;
+  padding: 40px 30px;
+  margin-top: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-products h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #fff;
+  width: 30%;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-card h4 {
+  font-size: 1.4rem;
+  margin: 15px 0;
+}
+
+.product-card p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.product-card button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #218838;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 40px 30px;
+  margin-top: 40px;
+}
+
+.testimonials h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.testimonials p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Call to Action Section */
+.call-to-action {
+  background-color: #28a745;
+  color: #fff;
+  padding: 40px 30px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.call-to-action h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.call-to-action p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.call-to-action button {
+  background-color: #fff;
+  color: #28a745;
+  border: 2px solid #fff;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.call-to-action button:hover {
+  background-color: #218838;
+  color: #fff;
+}
